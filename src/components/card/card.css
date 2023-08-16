@@ -1,0 +1,48 @@
+.card{
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 2rem;
+    gap: 1rem;
+    background-color: rgba(255, 255, 255, 0.73);
+    transition: 0.3s;
+    width: 33rem;
+    height: 33rem;
+    margin-top: 2rem;
+}
+
+.imgProduct{
+    width: 15rem;
+    height: 15rem;
+}
+
+.card:hover {
+    transform: translatey(-14px);
+    box-shadow: 1px 6px 17px 0px rgba(0,0,0,0.75);
+}
+
+.card:active {
+    transform: none;
+    box-shadow: none;
+}
+
+.price {
+    border-radius: 58px 58px 58px 0px;
+    background-color: rgb(58, 159, 218);
+    width: 50%;
+    color: white;
+    font-size: 20px;
+    transition: .5s;
+    margin: 0 auto;
+}
+
+.price:hover {
+    background-color: white;
+    animation: vibrateTemp 0.7s infinite;
+    color: rgb(58, 159, 218);
+}
+
+@keyframes vibrateTemp{
+    0%{transform: rotate(5deg)}
+    50%{transform: rotate(0deg)}
+    100%{transform: rotate(5deg)}
+}

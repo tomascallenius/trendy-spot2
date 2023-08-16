@@ -1,0 +1,77 @@
+.sizeprop{
+  padding: 1rem;
+  width: 3rem;
+}
+
+.contImageprops {
+    display: flex;
+    margin: 80px;
+    background-color: rgb(237, 239, 241);
+    border-radius: 10px;
+    position: relative;
+}
+
+.detailImage {
+    height: 50%;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.divMaxDetails {
+  max-width: 100%;
+  width: 100%;
+}
+
+.allDetailsDiv {
+  background-color: rgb(17, 76, 95);
+  max-width: 100%;
+  padding: 3%;
+  margin-top: 10%;
+}
+
+.backprice {
+    background-image: url('./kisspng-blue-brand-turquoise-png-price-tag-vector-material-5a6ba043d70c53.8924632615170028198808.png');
+    background-size: contain;
+    width: 150px;
+    background-repeat: no-repeat;
+    align-items: center;
+    position: absolute;
+    left: 32%;
+    top: 20%;
+}
+
+.detailPriceh3 {
+    transform: rotate(26deg);
+    color: white;
+    position: absolute;
+    top: 23%;
+    left: 36.5%;
+    z-index: 1;
+}
+
+.details {
+    margin-top: 35%;
+    margin-left: 30%;
+}
+
+.button-loading {
+  pointer-events: none; /* Evita que se pueda hacer clic mientras carga */
+  opacity: 0.7; /* Opacidad reducida durante la carga */
+}
+
+.button-loading::after {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-left: 8px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  border-top-color: transparent;
+  animation: spin 0.6s linear infinite; /* Animación de rotación */
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

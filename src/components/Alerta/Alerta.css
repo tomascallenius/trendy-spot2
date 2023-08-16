@@ -1,0 +1,17 @@
+.alertRed{
+    background-color: red;
+    color: white;
+}
+
+.alertOk{
+    background-color: blue;
+    color: white;
+}
+
+.alertRed,
+.alertOk{
+    padding: 1rem;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 0.5rem;
+}

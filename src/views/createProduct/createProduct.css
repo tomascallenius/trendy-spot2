@@ -1,0 +1,757 @@
+.spanError{
+      color: red;
+}
+
+.form {
+      width: 100%;
+      padding: 5%;
+}
+
+.h3 {
+      color: white;
+}
+
+.btnForm {
+      background-color: white;
+      color: rgb(17, 76, 95);
+      size: 20%;
+}
+
+.allDiv {
+      background-color: rgb(17, 76, 95);
+      padding: 1%;
+      max-width: 100%;
+      display: flex;
+      justify-content: center;
+}
+
+.divForm{ 
+      width: 100%;
+      height: 100%;
+}
+
+.form-control::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+}
+
+.divStock {
+      margin: 2%;
+      max-width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+}
+
+.theRealLabelDiv {
+      width: 165px;
+      display: flex;
+      padding: 0.2%;
+      border-radius: 5px;
+      justify-content: right;
+      align-items: center;
+      color: white;
+
+}
+.divh4 {
+      background-color: white;
+}
+
+.input-goup {
+      width: 100%;
+      background-color: transparent;
+      border-radius: 5px;
+}
+
+.input-goup::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      cursor: pointer;
+}
+
+.tomasSeco{
+      margin-top: 7%;
+      display: flex;
+      justify-content: space-between;
+      width: 85%;
+}
+
+.divImagenes {
+      padding: 1%;
+      width: 100%;
+      height: 100%;
+}
+
+.divlabelImage {
+      max-width: 50%;
+}
+
+.imageButtonContainer {
+      max-width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+
+.imageUploaded {
+      max-width: 100%;
+}
+
+.labelImage{
+      margin-top: 2%;
+}
+
+.divInputs {
+      justify-content: center;
+      background-color: white;
+      border-radius: 10px;
+}
+
+.theRealDiv{
+      display: flex;
+      align-items: center;
+      max-width: 100%;
+}
+
+.buttonStyles {
+      max-width: 100%;
+      width: 25%;
+      display: flex;
+      flex-direction: column;
+      
+}
+
+.productImage {
+      max-width: 100%;
+      padding: 4%; 
+}
+
+.containerImage {
+      width: 100%;
+      
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+
+.inputgrupo {
+      margin: 1%;;
+}
+
+.stockWhite {
+      background-color: white;
+      max-width: 40px;
+      margin-right: 2%;
+      margin-left: 3%;
+      border-radius: 10px;
+}
+
+.stockBlack {
+      background-color: black;
+      max-width: 40px;
+      margin-right: 2%;
+      margin-left: 2%;
+      border-radius: 10px;
+}
+
+.stockGrey {
+      background-color: grey;
+      max-width: 40px;
+      margin-right: 2%;
+      margin-left: 2%;
+      border-radius: 10px;
+}
+
+
+.inputsProduct {
+      padding: 1%;
+}
+
+.inputsProduct textarea {
+      width: 100%;
+      height: 100px;
+}
+
+.form-control {
+      height: 30px;
+}
+
+.btnForm:disabled {
+      transition: none;
+      box-shadow: none;
+      transform: none;
+      background-color: rgba(255, 255, 255, 0.405);
+}
+
+.btn-close {
+      background-color: white;
+      margin-bottom: 7px;
+}
+
+.input1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+}
+
+
+/* .spanError{
+      color: red;
+}
+
+.form {
+      width: 100%;
+      padding: 5%;
+}
+
+.h3 {
+      color: white;
+}
+
+.btnForm {
+      background-color: white;
+      color: rgb(17, 76, 95);
+      size: 20%;
+}
+
+.allDiv {
+      background-color: rgb(17, 76, 95);
+      padding: 1%;
+      max-width: 100%;
+      display: flex;
+      justify-content: center;
+}
+
+.divForm{ 
+      width: 100%;
+      height: 100%;
+}
+
+.form-control::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+}
+
+.divStock {
+      margin: 2%;
+      padding: 2%;
+      max-width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      /* background-color: rgb(58, 159, 218); */
+}
+
+.theRealLabelDiv {
+      width: 165px;
+      display: flex;
+      padding: 0.2%;
+      border-radius: 5px;
+      justify-content: right;
+      align-items: center;
+      color: white;
+
+}
+.divh4 {
+      background-color: white;
+}
+
+.input-goup {
+      width: 100%;
+      background-color: transparent;
+      border-radius: 5px;
+}
+
+.input-goup::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      cursor: pointer;
+}
+
+.tomasSeco{
+      margin-top: 7%;
+      display: flex;
+      justify-content: space-between;
+      width: 85%;
+}
+
+.divImagenes {
+      padding: 1%;
+      width: 100%;
+      height: 100%;
+}
+
+.divlabelImage {
+      background-color: red;
+      max-width: 50%;
+}
+
+.imageButtonContainer {
+      max-width: 100%;
+}
+
+.imageUploaded {
+      max-width: 100%;
+}
+
+.labelImage{
+      margin-top: 2%;
+}
+
+.divInputs {
+      display: flex;
+      flex-direction: column;
+      margin-top: 10%;
+      /* align-items: end; */
+}
+
+.theRealDiv{
+      display: flex;
+      align-items: center;
+      max-width: 100%;
+}
+
+.buttonStyles {
+      max-width: 30%;
+      padding-bottom: 5%;
+}
+
+.productImage {
+      max-width: 100%;
+      padding: 4%; 
+}
+
+.containerImage {
+      max-width: 100%;
+}
+
+
+.label {
+      background-color: red;
+}
+
+.maxContainerStock {
+      background-color: white;
+}
+
+.stockWhite {
+      background-color: white;
+      max-width: 40px;
+      margin-right: 2%;
+      margin-left: 3%;
+      border-radius: 10px;
+}
+
+.stockBlack {
+      background-color: black;
+      max-width: 40px;
+      margin-right: 2%;
+      margin-left: 2%;
+      border-radius: 10px;
+}
+
+.stockGrey {
+      background-color: grey;
+      max-width: 40px;
+      margin-right: 2%;
+      margin-left: 2%;
+      border-radius: 10px;
+}
+
+
+.inputsProduct {
+      background-color: rgb(17, 76, 95);
+      padding: 1%;
+}
+
+.inputsProduct textarea {
+      width: 100%;
+      height: 100px;
+}
+
+.form-control {
+      height: 30px;
+}
+
+.btnForm:disabled {
+      transition: none;
+      box-shadow: none;
+      transform: none;
+      background-color: rgba(255, 255, 255, 0.405);
+} */
+
+/* .spanError{
+      color: red;
+}
+
+.form {
+      width: 100%;
+      padding: 5%;
+}
+
+.h3 {
+      color: white;
+}
+
+.btnForm {
+      background-color: white;
+      color: rgb(17, 76, 95);
+      size: 20%;
+}
+
+.allDiv {
+      background-color: rgb(17, 76, 95);
+      padding: 1%;
+      max-width: 100%;
+      display: flex;
+      justify-content: center;
+}
+
+.divForm{ 
+      width: 100%;
+      height: 100%;
+}
+
+.form-control::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+}
+
+.divStock {
+      margin: 2%;
+      max-width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: rgb(58, 159, 218);
+}
+
+.theRealLabelDiv {
+      width: 165px;
+      display: flex;
+      padding: 0.2%;
+      border-radius: 5px;
+      justify-content: right;
+      align-items: center;
+      color: white;
+
+}
+.divh4 {
+      background-color: white;
+}
+
+.input-goup {
+      width: 100%;
+      background-color: transparent;
+      border-radius: 5px;
+}
+
+.input-goup::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      cursor: pointer;
+}
+
+.tomasSeco{
+      margin-top: 7%;
+      display: flex;
+      justify-content: space-between;
+      background-color: blue;
+      width: 85%;
+}
+
+.divImagenes {
+      background-color: blueviolet;
+      padding: 1%;
+      width: 100%;
+      height: 100%;
+}
+
+.divlabelImage {
+      background-color: red;
+      max-width: 50%;
+}
+
+.imageButtonContainer {
+      max-width: 100%;
+      background-color: white;
+}
+
+.imageUploaded {
+      max-width: 100%;
+}
+
+.labelImage{
+      margin-top: 2%;
+}
+
+.divInputs {
+      display: flex;
+      flex-direction: column;
+      background-color: brown;
+      align-items: end;
+}
+
+.theRealDiv{
+      background-color: green;
+      display: flex;
+      align-items: center;
+      max-width: 100%;
+}
+
+.buttonStyles {
+      background-color: red;
+      max-width: 30%;
+      padding-bottom: 5%;
+}
+
+.productImage {
+      max-width: 100%;
+      padding: 4%; 
+}
+
+.containerImage {
+      max-width: 100%;
+}
+
+
+.label {
+      background-color: red;
+}
+
+.maxContainerStock {
+      background-color: white;
+}
+
+.stockWhite {
+      background-color: white;
+      max-width: 40px;
+      margin-right: 2%;
+      margin-left: 3%;
+      border-radius: 10px;
+}
+
+.stockBlack {
+      background-color: black;
+      max-width: 40px;
+      margin-right: 2%;
+      margin-left: 2%;
+      border-radius: 10px;
+}
+
+.stockGrey {
+      background-color: grey;
+      max-width: 40px;
+      margin-right: 2%;
+      margin-left: 2%;
+      border-radius: 10px;
+}
+
+
+.inputsProduct {
+      background-color: red;
+      padding: 1%;
+}
+
+.inputsProduct textarea {
+      width: 100%;
+      height: 100px;
+}
+
+.form-control {
+      height: 30px;
+}
+
+.btnForm:disabled {
+      transition: none;
+      box-shadow: none;
+      transform: none;
+      background-color: rgba(255, 255, 255, 0.405);
+} */
+/* .spanError{
+      color: red;
+}
+
+.form {
+      width: 100%;
+      padding: 5%;
+}
+
+.h3 {
+      color: white;
+}
+
+.btnForm {
+      background-color: white;
+      color: rgb(17, 76, 95);
+      size: 20%;
+}
+
+.allDiv {
+      background-color: rgb(17, 76, 95);
+      padding: 1%;
+      max-width: 100%;
+      display: flex;
+      justify-content: center;
+}
+
+.divForm{ 
+      width: 100%;
+      height: 100%;
+}
+
+.form-control::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+}
+
+.divStock {
+      margin: 2%;
+      max-width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: rgb(58, 159, 218);
+}
+
+.theRealLabelDiv {
+      width: 165px;
+      display: flex;
+      padding: 0.2%;
+      border-radius: 5px;
+      justify-content: right;
+      align-items: center;
+      color: white;
+
+}
+.divh4 {
+      background-color: white;
+}
+
+.input-goup {
+      width: 100%;
+      background-color: transparent;
+      border-radius: 5px;
+}
+
+.input-goup::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      cursor: pointer;
+}
+
+.tomasSeco{
+      margin-top: 7%;
+      display: flex;
+      justify-content: space-between;
+      background-color: blue;
+      width: 85%;
+}
+
+.divImagenes {
+      background-color: blueviolet;
+      padding: 1%;
+      width: 100%;
+      height: 100%;
+}
+
+.divlabelImage {
+      background-color: red;
+      max-width: 50%;
+}
+
+.imageButtonContainer {
+      max-width: 100%;
+      background-color: white;
+}
+
+.imageUploaded {
+      max-width: 100%;
+}
+
+.labelImage{
+      margin-top: 2%;
+}
+
+.divInputs {
+      display: flex;
+      flex-direction: column;
+      background-color: brown;
+      align-items: end;
+}
+
+.theRealDiv{
+      background-color: green;
+      display: flex;
+      align-items: center;
+      max-width: 100%;
+}
+
+.buttonStyles {
+      background-color: red;
+      max-width: 30%;
+      padding-bottom: 5%;
+}
+
+.productImage {
+      max-width: 100%;
+      padding: 4%; 
+}
+
+.containerImage {
+      max-width: 100%;
+}
+
+
+.label {
+      background-color: red;
+}
+
+.maxContainerStock {
+      background-color: white;
+}
+
+.stockWhite {
+      background-color: white;
+      max-width: 40px;
+      margin-right: 2%;
+      margin-left: 3%;
+      border-radius: 10px;
+}
+
+.stockBlack {
+      background-color: black;
+      max-width: 40px;
+      margin-right: 2%;
+      margin-left: 2%;
+      border-radius: 10px;
+}
+
+.stockGrey {
+      background-color: grey;
+      max-width: 40px;
+      margin-right: 2%;
+      margin-left: 2%;
+      border-radius: 10px;
+}
+
+
+.inputsProduct {
+      background-color: red;
+      padding: 1%;
+}
+
+.inputsProduct textarea {
+      width: 100%;
+      height: 100px;
+}
+
+.form-control {
+      height: 30px;
+}
+
+.btnForm:disabled {
+      transition: none;
+      box-shadow: none;
+      transform: none;
+      background-color: rgba(255, 255, 255, 0.405);
+} */

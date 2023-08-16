@@ -1,0 +1,83 @@
+.mainRegister{
+    background-color: rgb(245, 247, 255);
+    padding: 3rem;
+    color: rgb(221, 214, 204);
+}
+
+.logoRegister{
+    width: 18rem;
+}
+
+.formLogin,
+.formRegister{
+    background-color: rgb(221, 221, 237);
+    padding: 1rem;
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+   color: rgb(70, 46, 118);
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+
+.divInput{
+    display: grid;
+    padding: 0.5rem;    
+}
+
+.input{
+    width: 80%;
+    margin: 0 auto;
+    height: 2rem;
+}
+
+.inputLogin{
+    height: 3rem;
+    width: 20rem;
+}
+
+.label{
+    font-weight: 200;
+    margin-bottom: 0.3rem;
+    background-color: rgb(210, 210, 230);
+    padding: 0.5rem;
+}
+.titleLogin{
+    background-color: rgba(248, 250, 255, 0.891);
+    padding: 3rem;
+    color: rgb(70, 46, 118);
+}
+.columnaLogin{
+    margin: 0 auto;
+}
+
+
+.navRegister{
+    background-color: rgb(170, 173, 216);
+    padding: 3rem;
+    justify-content: space-between;
+    gap: 2rem;
+    
+}
+
+.linksRegister{
+   padding: 1rem;
+   color: rgb(70, 46, 118);
+}
+.btnLogin,
+.btnCreateAccount{
+    background-color: rgb(22, 22, 52);
+    color: aliceblue;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Transición suave para el efecto hover */
+}
+
+.btnCreateAccount:hover {
+    background-color: #0e3e31; /* Cambio de color en el hover */
+    transform: scale(1.1); /* Agrandamiento en el hover */
+  }

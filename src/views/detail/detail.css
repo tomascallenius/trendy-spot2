@@ -1,0 +1,111 @@
+.theRealMaxContainer {
+    padding: 1%;
+    max-width: 100%;
+}
+
+.mediumContainer {
+    display: flex;
+    max-width: 100%;
+    background-color: rgb(17, 76, 95);
+    color: white;
+    margin-top: 3%;
+    padding: 1%;
+}
+
+.imageCont {
+    background-color: rgb(238, 238, 238);
+    max-width: 40%;
+    margin: 2%;
+    padding: 1%;
+    display: flex;
+    margin-left: 5%;
+    justify-content: center;
+}
+
+.productImage {
+    max-width: 100%;
+    padding: 4%;
+}
+
+/* rgb(47, 203, 255); */
+/* rgb(17, 76, 95); */
+
+.divImage {
+    max-width: 100%;
+}
+
+.allDetailsDiv {
+    background-color: rgb(17, 76, 95);
+    max-width: 100%;
+    padding: 3%;
+    margin-top: 10%;
+}
+
+.divMaxDetails {
+    max-width: 100%;
+}
+
+.divBtn {
+    max-width: 100%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+}
+
+.containerBtn {
+    display: flex;
+    gap: 1rem;
+}
+
+.btnSize {
+    padding: 0.8rem;
+    gap: 0.4rem;
+    justify-content: space-between;
+}
+
+.priceh4 {
+    max-width: 100%;
+    color: rgb(47, 203, 255);
+    background-color: rgb(238, 238, 238);
+}
+
+.theRealh4 {
+    font-family: 'DMSans';
+}
+
+@font-face {
+    font-family: "DMSans";
+    src: url('../../utils/DMSans-VariableFont_opszwght.ttf') format('truetype');
+}
+
+.divButtons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    gap: 10px
+}
+
+
+/*Nuevo para el carrito */
+
+
+.buttonSize.seleccionado {
+    background-color: rgb(47, 203, 255);
+    color: white;
+    width: 35px;
+    margin-right: 2.5px;
+    margin-left: 2.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonSize2.seleccionado {
+    background-color: rgb(47, 203, 255);
+}
+
+.stock {
+    font-size: 22px;
+    font-weight: bold;
+}
